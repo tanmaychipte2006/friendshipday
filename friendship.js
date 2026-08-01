@@ -146,7 +146,7 @@ function renderMessage(friend, you) {
 
 function handleGenerate(e) {
   e.preventDefault();
-  const you = yourNameInput.value.trim();
+  const you = "Tanmay";
   const friend = friendNameInput.value.trim();
 
   if (!you || !friend) {
